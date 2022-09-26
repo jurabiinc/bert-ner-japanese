@@ -111,8 +111,8 @@ for i, encoded_sentence in enumerate(encoded_sentence_list):
 
   tags_list.append(tags)
 
-  # 固有表現タグをIDに変換
-  encoded_tags_list = [[label2id[tag] for tag in tags] for tags in tags_list] # 学習で利用
+# 固有表現タグをIDに変換
+encoded_tags_list = [[label2id[tag] for tag in tags] for tags in tags_list] # 学習で利用
 
 # タグづけしたデータの保存
 tagged_sentence_list = []
