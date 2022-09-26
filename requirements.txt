@@ -1,0 +1,7 @@
+torch
+transformers
+unidic_lite
+fugashi
+sklearn
+datasets
+seqeval
